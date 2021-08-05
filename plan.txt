@@ -1,0 +1,38 @@
+[0m[1mgoogle_project_service.maaz: Refreshing state... [id=terraform-gcp-task/compute.googleapis.com][0m
+[0m[1mgoogle_compute_network.vpc: Refreshing state... [id=projects/terraform-gcp-task/global/networks/nti-vpc][0m
+[0m[1mgoogle_service_account.nti_service_account: Refreshing state... [id=projects/terraform-gcp-task/serviceAccounts/nti-sv-id@terraform-gcp-task.iam.gserviceaccount.com][0m
+[0m[1mgoogle_storage_bucket.nti-bucket-23587: Refreshing state... [id=my-bucket124578][0m
+[0m[1mgoogle_bigquery_dataset.nti-dataset: Refreshing state... [id=projects/terraform-gcp-task/datasets/nti_task_dataset][0m
+[0m[1mgoogle_compute_firewall.default: Refreshing state... [id=projects/terraform-gcp-task/global/firewalls/allow-all-firewall][0m
+[0m[1mgoogle_compute_subnetwork.subnet1: Refreshing state... [id=projects/terraform-gcp-task/regions/europe-west1/subnetworks/nti-subnet-1][0m
+[0m[1mgoogle_compute_subnetwork.subnet2: Refreshing state... [id=projects/terraform-gcp-task/regions/us-central1/subnetworks/nti-subnet-2][0m
+[0m[1mgoogle_compute_address.vm_prv_ip_address: Refreshing state... [id=projects/terraform-gcp-task/regions/us-central1/addresses/vm-prv-address][0m
+[0m[1mgoogle_compute_router.nat-router: Refreshing state... [id=projects/terraform-gcp-task/regions/us-central1/routers/nat-router][0m
+[0m[1mgoogle_compute_instance.pub-vm: Refreshing state... [id=projects/terraform-gcp-task/zones/europe-west1-b/instances/public-vm][0m
+[0m[1mgoogle_container_cluster.t-cluster: Refreshing state... [id=projects/terraform-gcp-task/locations/europe-west1-b/clusters/my-cluster][0m
+[0m[1mgoogle_compute_router_nat.nat: Refreshing state... [id=terraform-gcp-task/us-central1/nat-router/my-nat][0m
+[0m[1mgoogle_compute_instance.prv-vm: Refreshing state... [id=projects/terraform-gcp-task/zones/us-central1-a/instances/private-vm][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create
+[0m
+Terraform will perform the following actions:
+
+[1m  # google_service_account_iam_binding.compute-admin[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "google_service_account_iam_binding" "compute-admin" {
+      [32m+[0m [0m[1m[0metag[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mmembers[0m[0m            = [
+          [32m+[0m [0m"user:magicleboy@gmail.com",
+        ]
+      [32m+[0m [0m[1m[0mrole[0m[0m               = "roles/iam.serviceAccountUser"
+      [32m+[0m [0m[1m[0mservice_account_id[0m[0m = "projects/terraform-gcp-task/serviceAccounts/nti-sv-id@terraform-gcp-task.iam.gserviceaccount.com"
+    }
+
+[0m[1mPlan:[0m 1 to add, 0 to change, 0 to destroy.
+[0m[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.

@@ -1,0 +1,23 @@
+[0m[1mgoogle_compute_network.vpc: Refreshing state... [id=projects/terraform-gcp-task/global/networks/nti-vpc][0m
+[0m[1mgoogle_bigquery_dataset.nti-dataset: Refreshing state... [id=projects/terraform-gcp-task/datasets/nti_task_dataset][0m
+[0m[1mgoogle_service_account.nti_service_account: Refreshing state... [id=projects/terraform-gcp-task/serviceAccounts/nti-sv-id@terraform-gcp-task.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_service.maaz: Refreshing state... [id=terraform-gcp-task/compute.googleapis.com][0m
+[0m[1mgoogle_storage_bucket.nti-bucket-23587: Refreshing state... [id=my-bucket124578][0m
+[0m[1mgoogle_compute_subnetwork.subnet2: Refreshing state... [id=projects/terraform-gcp-task/regions/us-central1/subnetworks/nti-subnet-2][0m
+[0m[1mgoogle_compute_firewall.default: Refreshing state... [id=projects/terraform-gcp-task/global/firewalls/allow-all-firewall][0m
+[0m[1mgoogle_compute_subnetwork.subnet1: Refreshing state... [id=projects/terraform-gcp-task/regions/europe-west1/subnetworks/nti-subnet-1][0m
+[0m[1mgoogle_compute_address.vm_prv_ip_address: Refreshing state... [id=projects/terraform-gcp-task/regions/us-central1/addresses/vm-prv-address][0m
+[0m[1mgoogle_compute_router.nat-router: Refreshing state... [id=projects/terraform-gcp-task/regions/us-central1/routers/nat-router][0m
+[0m[1mgoogle_service_account_iam_binding.compute-admin: Refreshing state... [id=projects/terraform-gcp-task/serviceAccounts/nti-sv-id@terraform-gcp-task.iam.gserviceaccount.com/roles/iam.serviceAccountUser][0m
+[0m[1mgoogle_compute_instance.pub-vm: Refreshing state... [id=projects/terraform-gcp-task/zones/europe-west1-b/instances/public-vm][0m
+[0m[1mgoogle_container_cluster.t-cluster: Refreshing state... [id=projects/terraform-gcp-task/locations/europe-west1-b/clusters/my-cluster][0m
+[0m[1mgoogle_compute_router_nat.nat: Refreshing state... [id=terraform-gcp-task/us-central1/nat-router/my-nat][0m
+[0m[1mgoogle_compute_instance.prv-vm: Refreshing state... [id=projects/terraform-gcp-task/zones/us-central1-a/instances/private-vm][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
+[0m[1m[32m
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
+[0m
