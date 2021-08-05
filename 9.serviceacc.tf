@@ -4,8 +4,6 @@ resource "google_service_account" "nti_service_account" {
   
 }
 
-
-
 resource "google_service_account_iam_binding" "compute-admin" {
   service_account_id = google_service_account.nti_service_account.name
   role               = "roles/iam.serviceAccountUser"
